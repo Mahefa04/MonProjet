@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                       // Version JS générée
+    "module": "CommonJS",                     // Pour Node.js
+    "moduleResolution": "Node",
+    "strict": true,                           // Active les vérifications strictes
+    "esModuleInterop": true,                  // Import/export modernes
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,                     // Ignore les libs type-checkées
+    "outDir": "./backend/dist",               // Où mettre les fichiers compilés
+    "rootDir": "./backend",                   // Dossier source
+    "resolveJsonModule": true,                // Permet d'importer du JSON
+    "types": ["node", "express"]              // Typages Node + Express
+  },
+  "include": ["backend/**/*.ts"],             // Tous tes .ts du backend
+  "exclude": ["node_modules", "backend/dist"]
+}

@@ -1,0 +1,136 @@
+/* Reset simple */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #0077cc;
+    color: white;
+  }
+  
+  .navbar button {
+    background-color: #005fa3;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .navbar button:hover {
+    background-color: #004c82;
+  }
+  
+  /* Login page */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .login-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .login-box h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .login-box input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-box button {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    background-color: #0077cc;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .login-box button:hover {
+    background-color: #005fa3;
+  }
+  
+  /* Dashboard */
+  .dashboard-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .dashboard-container h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .depense-form {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .depense-form input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+  }
+  
+  .depense-form input[type="number"] {
+    width: 120px;
+  }
+  
+  .depense-form button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #0077cc;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .depense-form button:hover {
+    background-color: #005fa3;
+  }
+  
+  .depense-list {
+    list-style: none;
+    margin-bottom: 1rem;
+  }
+  
+  .depense-list li {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+  }
+  
